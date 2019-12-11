@@ -1,0 +1,43 @@
+<!-- <div class="container col-lg-12">
+  <div class="row">
+    <div class="col-md-4">
+      <img class="img-responsive img-fluid animated bounceIn w-100 "
+        src="https://cdn.geekwire.com/wp-content/uploads/2017/02/suzman1-630x420.png">
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive img-fluid animated bounceIn"
+        src="https://media-cdn.tripadvisor.com/media/photo-s/01/18/0b/95/cuddalore-women-at-work.jpg">
+    </div>
+    <div class="col-md-4">
+      <img class="img-responsive img-fluid animated bounceIn "
+        src="https://cdn.geekwire.com/wp-content/uploads/2017/02/suzman1-630x420.png">
+    </div>
+  </div>
+</div>
+<br> -->
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12" *ngFor="let p of two">
+              <div class="card mb-5" style="width: 18rem;">
+                <img class="mx-auto d-block img-responsive img-fluid" src="{{p.image}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">{{p.name}}</h5>
+                  <h6 class="card-title">RS {{p.price}}</h6>
+                  <p class="card-text">if you buy this pack your eligible for prime user,you have eligible  for 70% discount!!!</p>
+                  <a href="javascript:void()" class="btn btn-primary" (click)="addToCart(p)">Buy</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+      

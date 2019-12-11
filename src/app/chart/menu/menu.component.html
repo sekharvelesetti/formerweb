@@ -1,0 +1,70 @@
+<!-- <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue" [containerInside]="false">
+
+    
+    <mdb-navbar-brand><a class="navbar-brand" href="#"><img  src="../../assets/former.png"></a></mdb-navbar-brand>
+  
+    <links>
+  
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="envelope"></mdb-icon> Contact<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="cog"></mdb-icon> Settings</a>
+        </li>
+  
+        <li class="nav-item dropdown" dropdown>
+          <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light" mdbWavesEffect>
+            <mdb-icon fas icon="user"></mdb-icon> Profile<span class="caret"></span></a>
+          <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">My account</a>
+            <a class="dropdown-item waves-light" mdbWavesEffect href="#">Log out</a>
+          </div>
+        </li>
+  
+      </ul>
+    </links>
+  
+  </mdb-navbar> -->
+
+<!-- 
+  <mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark blue" [containerInside]="false">
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item active">
+      <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="envelope"></mdb-icon> Contact<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link waves-light" mdbWavesEffect><mdb-icon fas icon="cog"></mdb-icon> Settings</a>
+    </li>
+    </ul>
+    </mdb-navbar> -->
+<div class="bg-dark sticky-top">
+    <ul class="navbar nav ml-auto bg-dark text-light  container">
+        <li class="nav-item active"><a routerLink='/'><h6>HOME</h6></a></li>
+        <li class="nav-item"><a href="#"><h6>ABOUT MINISTRY</h6></a></li>
+        <div class="dropdown">
+          <li type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a routerLink='/matter'><h6>DEPARTMENTS</h6></a>
+          </li>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" routerLink='/matter'>Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>   
+           <div class="dropdown">
+            <li type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a href=""><h6>MINISTERS</h6></a>
+            </li>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>        
+          <li class="nav-item"><a href=""><h6>PARLAMENT Q&A</h6></a></li>
+          <li class="nav-item"><a href=""><h6>MEDIA</h6></a></li>
+          <li class="nav-item"><a href=""><h6>RELATED LINKS</h6></a></li>
+</ul>
+</div>
+

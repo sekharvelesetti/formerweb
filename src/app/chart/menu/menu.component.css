@@ -1,0 +1,6 @@
+.dropdown:hover>.dropdown-menu {
+    display:block;
+}
+ul li a {
+    color: aliceblue;
+}
